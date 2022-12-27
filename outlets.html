@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="outlets.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>outlets</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="mid">
+            <ul class="navbar">
+                <b>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pizzacenter.html">Pizza center</a></li>
+                    <li><a href="outlets.html" class="active">outlets</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                </b>
+            </ul>
+        </div>
+    </header>
+    <div class="myProducts">
+        <div class="myProducts-gallery">
+            <img src="2.jpg" alt="click here" onclick="myImageFunction(this)">
+            <img src="3.jpg" alt="click here" onclick="myImageFunction(this)">
+            <img src="4.jpg" alt="click here" onclick="myImageFunction(this)">
+            <img src="5.jpg" alt="click here" onclick="myImageFunction(this)">
+        </div>
+
+        <div class="image-container">
+            <img id="img-Box" src="1.jpg" alt="click here">
+        </div>
+    </div>
+    <center>
+    <div class="xyz">
+        <p><b><u><i>This is some glims of outlets.</i></u></b></p>
+    </div>
+</center>
+
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
+
+</body>
+
+</html>

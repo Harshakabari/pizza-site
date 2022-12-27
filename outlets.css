@@ -1,0 +1,100 @@
+body
+{
+    color: black;
+    margin:0px;
+    padding:0px;
+    background-image: url('d2.jfif');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: 100%;
+    image-resolution: 100px;
+ }
+ 
+ .mid{
+    
+     display: inline-block inline;
+     width: 50%;
+     
+     margin: 20px auto;
+     font-family: 'Courier New', Courier, monospace; 
+ }
+ p
+  {
+    font-size: large;
+    color: black;
+    margin-left: 5px;  
+}
+.header
+{
+    background-color: black;
+    padding: 0.1px;
+
+}
+ .navbar li{
+     display: inline-block;
+     font-size: 25px;
+     position: sticky;
+     text-decoration: none;
+ }
+ .navbar li a{
+     color: burlywood;
+     font-weight: 100px;
+     text-decoration: none;
+     padding: 34px 23px;
+ }
+ .navbar li a:hover, .navbar li a.active{
+     
+     color:white;
+     text-decoration: underline;
+ }
+ .xyz
+ {
+    padding-top: 500px;
+     
+}
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.myProducts-gallery img{
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: .5;
+}
+
+.myProducts-gallery img:hover {
+	opacity: 1;
+}
+
+.myProducts-gallery {
+	float: left;
+}
+
+.myProducts {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+
+.image-container img {
+	height: 400px;
+	transition: transform 1s;
+}
+
+.image-container img:hover{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.image-container {
+	float: right;
+	padding: 10px;
+}
+

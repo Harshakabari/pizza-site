@@ -1,0 +1,148 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    color: white;
+     margin:0px;
+     padding:0px;
+     background-image: url('X2.jpg');
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: 100%;
+     image-resolution: 20px;
+ }
+ .left
+ {
+   
+    display: inline-block;
+    position: absolute;
+     left: 34px;
+     top: 20px;
+ }
+ .mid{
+    
+     display: inline-block inline;
+     width: 50%;
+     
+     margin: 20px auto;
+     font-family: 'Courier New', Courier, monospace; 
+ }
+ p {
+    font-size: large;
+    color: black;
+    margin-left: 5px;
+    
+}
+ .right{
+     position: absolute;
+     right: 34px;
+     top: 20px;
+     display: inline-block;
+     text-decoration: none;
+     
+ }
+ .navbar li{
+     display: inline-block;
+     font-size: 25px;
+     position: sticky;
+     text-decoration: none;
+ }
+ .navbar li a{
+     color: burlywood;
+     font-weight: 100px;
+     text-decoration: none;
+     padding: 34px 23px;
+     text-decoration: none;
+
+ }
+ .navbar li a:hover, .navbar li a.active{
+     
+     color:white;
+     text-decoration: underline;
+ }
+ .left img{
+     width: 95px;
+    image-resolution: 12px;
+    border-radius: 20px;
+    border: 5px solid black;
+ }
+ .btn{
+     margin: 0px 9px;
+     color:white ;
+     background-color:black;
+     padding: 4px 14px;
+     border: 2px solid black;
+     border-radius: 10px;
+     cursor: pointer;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+
+ }
+ .left div{
+     text-align: center;
+     color: rgb(117, 173, 248);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 17px;
+ }
+ .btn:hover{
+     background-color:burlywood ;   
+
+ }
+ .container{
+     border: 2px solid rgb(5, 5, 5);    
+     margin: 97px 13px;
+     padding:  72px;
+     width: 25%;
+     border-radius: 28px;
+     height: 40px;
+     text-align: center;
+     text-decoration: none;
+
+     
+ }
+ .form-group input{
+     text-align: center;
+     display: block;
+     width: 295px;
+     margin: 5px auto;
+     padding: 1px;
+     border-radius: 8px;
+     font-size: 22px;
+     border: 2px solid black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: wheat;
+     text-decoration: none;
+
+ }
+   .feedback .h1{
+     text-align: center;
+     color: black;
+}
+.p1
+{
+       color: white;
+       background-color: black;
+       opacity: 0.8;
+       font-size: large;
+       font-style: italic;
+}
+.animate-flicker
+{
+    font-size: x-large;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation .3s infinite;
+     -moz-animation: flickerAnimation .3s infinite;
+     -o-animation: flickerAnimation .3s infinite;
+      animation: flickerAnimation .3s infinite;
+  }
+  
+  

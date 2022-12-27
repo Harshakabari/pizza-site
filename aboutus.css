@@ -1,0 +1,91 @@
+
+body{
+    color: black;
+     margin:0px;
+     padding:0px;
+     background-image: url('d2.jfif');
+     background-repeat:no-repeat;
+     background-attachment:scroll;
+     background-size: 100%;
+     image-resolution: 100px;
+ }
+.left{
+  
+   display: inline-block;
+   position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.header
+{
+    background-color: black;
+    padding: 0.1px;
+
+}
+.mid{
+   
+    display: inline-block inline;
+    width: 60%;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace; 
+ 
+   }
+   .x
+ {
+    display: inline-flex;
+    color: burlywood;
+    background-color: black;  
+    opacity: 0.7;
+    justify-content: center;
+    width: 100%;
+    font-size:large; 
+ }
+.main
+ {
+    display: inline-flex;
+    color: burlywood;
+    background-color: black;
+    opacity: 0.7;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    
+ }
+ 
+ .logo1
+ {
+    padding: 
+    20px;
+ }
+ .logo2
+ {
+    padding: 20px;
+ }
+ .logo3
+ {
+    padding: 20px;
+ }
+ .logo4
+ {
+    padding: 20px;
+ }
+ .logo5
+ {
+    padding: 20px;
+ }
+ .navbar li{
+    display: inline-block;
+    font-size: 25px;
+   
+}
+.navbar li a{
+    color: burlywood;
+    font-weight: 100px;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    
+    color:white;
+    text-decoration: underline;
+}
